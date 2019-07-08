@@ -2,7 +2,7 @@
 Implementação de Estrutura de Dados Pilha em Java.
 
 ## Declaração da instância:
-Pilha<E> pilha = <b>new</b> Pilha<E>()
+Pilha<tipo> pilha = <b>new</b> Pilha<tipo>()
 
 ## Métodos
 
