@@ -4,7 +4,7 @@ Pilha baseada em lista ligada.
 
 ## Métodos
 
-1. <i>inserir(E elemento)</i>: inserção de elemento do tipo E na pilha.
-2. <i>deletar(E elemento)</i>: deleção de elemento do tipo E em qualquer posição da pilha na pilha.
+1. <i>push(E elemento)</i>: inserção de elemento do tipo E na pilha.
+2. <i>top(E elemento)</i>: retorna o elemento que está no topo da pilha.
 3. <i>buscar(E elemento)</i>: buscar elemento do tipo E na pilha.
-4. <i>pop()</i>: deletar elemento no fim da pilha.
+4. <i>pop()</i>: retira o elemento no fim da pilha e o mostra.

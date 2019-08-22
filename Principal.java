@@ -11,26 +11,15 @@ public class Principal{
 		
 		System.out.println("Olah usuário =D");
 		
-		while(check.equals("Y")){
-			System.out.print("Nome: ");
-			nome = sc.next();
-			pilha.inserir(nome);
-			System.out.println("Continuar?(Y/N)\n");
-			check = sc.next();
+		pilha.push("Pedro");
+		pilha.push("Carlos");
+
+		System.out.println("Top: "+pilha.top());
+
+		for(int i = 0; i < 4; i++){
+			System.out.println("Elemento: "+pilha.top());
+			pilha.pop();
 		}
-		
-		System.out.println("Listando...\n");
-		
-		pilha.listar();
-		
-		System.out.print("\nPalavra a ser deletada: ");
-		nome = sc.next();
-		pilha.deletar(nome);
-		
-		pilha.listar();
-		
-		pilha.pop();
-		pilha.listar();
 		
 	}
 	
